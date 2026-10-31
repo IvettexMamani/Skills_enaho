@@ -74,4 +74,4 @@ Las decisiones de limpieza (llaves como texto, residentes habituales, unión `m:
 
 ## Origen
 
-Proyecto de la sesión «Skills: Claude limpia la ENAHO» del curso de ciencia de datos con Python ([d2cml-ai/Data-Science-Python](https://github.com/d2cml-ai/Data-Science-Python/tree/main/sessions/16-skills-enaho)). `slides/` guarda una copia de las diapositivas. Fuente de los datos: INEI, Encuesta Nacional de Hogares.
+Proyecto de la sesión «Skills: Claude limpia la ENAHO» del curso de ciencia de datos con Python ([d2cml-ai/Data-Science-Python](https://github.com/d2cml-ai/Data-Science-Python/tree/main/sessions/16-skills-enaho)). Fuente de los datos: INEI, Encuesta Nacional de Hogares.

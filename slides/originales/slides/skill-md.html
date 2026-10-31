@@ -1,0 +1,26 @@
+<section id="skill-md" data-transition="fade" style="background:#f7f3ec">
+  <div id="p49a3a9eb4d3br0-f91c9388" style="position:absolute; top:128px; left:128px; width:1664px; height:132px; display:flex; flex-direction:column; gap:16px">
+    <p style="font-family:'Public Sans', Arial, sans-serif; font-size:26px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#b4441a">Anatomía de SKILL.md</p>
+    <h2 style="font-family:Oswald, Arial, sans-serif; font-size:72px; font-weight:600; line-height:1.1; color:#1c1a17">Dos campos arriba, las instrucciones abajo</h2>
+  </div>
+  <div id="p49a3a9eb4d3br1-f91c9388" style="position:absolute; top:299.26px; left:128px; width:1664px; height:448px; display:grid; gap:40px; grid-template-columns:1.4fr 1fr">
+    <div style="display:flex; flex-direction:column; padding:32px 36px; background:#1c1a17; border-radius:16px">
+      <p style="font-family:'JetBrains Mono', 'Courier New', monospace; font-size:24px; line-height:1.6; color:#f7f3ec"><span style="color:#b8ae9f">---</span><br><span style="color:#f08a4b">name:</span> limpiando-enaho<br><span style="color:#f08a4b">description:</span> Limpia módulos de la ENAHO del INEI y arma una base de personas. Úsala cuando pidan limpiar, unir o calcular pobreza con la ENAHO.<br><span style="color:#b8ae9f">---</span><br># Limpiar la ENAHO<br>1. Corre scripts/limpiar.py<br>2. Revisa validacion.txt<br>3. Para otras variables, lee reference.md</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:30px; font-weight:700; color:#b4441a">name</p>
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:26px; line-height:1.4; color:#3e3a34">Minúsculas, números y guiones; hasta 64 caracteres. Será el comando /limpiando-enaho</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:30px; font-weight:700; color:#b4441a">description</p>
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:26px; line-height:1.4; color:#3e3a34">Qué hace y cuándo usarla. Es lo único que Claude lee para decidir si la activa</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:30px; font-weight:700; color:#b4441a">El cuerpo</p>
+        <p style="font-family:'Public Sans', Arial, sans-serif; font-size:26px; line-height:1.4; color:#3e3a34">Pasos en Markdown; menos de 500 líneas</p>
+      </div>
+    </div>
+  </div>
+  <aside>El archivo empieza con un bloque YAML entre tres guiones. En Claude Code todos los campos son opcionales, pero description es la que importa: si falta o es vaga, Claude nunca sabrá cuándo usarla. El name, por defecto, es el nombre de la carpeta. La documentación recomienda nombres en gerundio, como limpiando-enaho, y prohíbe usar las palabras anthropic o claude. El cuerpo son instrucciones normales; la recomendación oficial es mantenerlo bajo 500 líneas y mover el detalle a otros archivos.</aside>
+</section>

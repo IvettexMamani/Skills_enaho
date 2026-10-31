@@ -1,0 +1,16 @@
+Validación ENAHO 2023
+
+[OK   ] Llaves de hogar únicas en la sumaria: 33,886 hogares
+[OK   ] Llaves de persona únicas: 110,792 residentes habituales de 119,747 filas del módulo 200
+[OK   ] La unión no perdió ni duplicó filas: 110,792 filas en la base
+[OK   ] Todas las personas encontraron su hogar: 0 sin hogar
+[OK   ] Los 25 departamentos tienen dato: 25 departamentos
+[OK   ] Pobreza igual a la oficial del INEI: 29.05 % vs 29.0 % (tolerancia 0.1 puntos)
+
+Cifras
+  Pobreza monetaria (sumaria, factor07 × mieperho): 29.05 %
+  Pobreza monetaria (base de personas, facpob07):   29.02 %
+  Pobreza extrema (sumaria):                        5.75 %
+  Población que representa la base (facpob07):      33,813,192
+
+RESULTADO: OK

@@ -1,0 +1,10 @@
+# Microdatos del INEI (184 MB): se bajan con la skill descargando-enaho
+datos/
+
+# Bases de personas generadas: se arman con la skill limpiando-enaho
+salidas/*.parquet
+
+# Python y descargas a medias
+__pycache__/
+.venv/
+*.part

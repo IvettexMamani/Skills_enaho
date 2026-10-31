@@ -1,0 +1,3 @@
+# Este equipo inspecciona HTTPS (antivirus o proxy): uv debe usar los certificados de Windows
+# para poder bajar paquetes de PyPI. En otras máquinas no cambia nada.
+system-certs = true

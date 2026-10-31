@@ -1,0 +1,26 @@
+<section id="carga" data-transition="fade" style="background:#f7f3ec">
+  <p id="e1-ye47l5" style="position:absolute; bottom:64px; left:128px; width:1664px; font-family:'Public Sans', Arial, sans-serif; font-size:24px; color:#6b645a">Fuente: documentación de Agent Skills, platform.claude.com y code.claude.com</p>
+  <div id="p7ed10021cf2dr0-21bdf205" style="position:absolute; top:128px; left:128px; width:1664px; height:132px; display:flex; flex-direction:column; gap:16px">
+    <p style="font-family:'Public Sans', Arial, sans-serif; font-size:26px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#b4441a">Carga progresiva</p>
+    <h2 style="font-family:Oswald, Arial, sans-serif; font-size:72px; font-weight:600; line-height:1.1; color:#1c1a17">Claude lee la skill en tres niveles, no toda de golpe</h2>
+  </div>
+  <div id="p7ed10021cf2dr1-21bdf205" style="position:absolute; top:308px; left:128px; width:1664px; height:265px; display:grid; gap:24px; grid-template-columns:1fr 1fr 1fr">
+    <div style="display:flex; flex-direction:column; gap:12px; padding:36px; background:#ffffff; border:1px solid #e5ddd1; border-radius:16px">
+      <p style="font-family:'Public Sans', Arial, sans-serif; font-size:26px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#b4441a">1 · Siempre</p>
+      <h3 style="font-family:Oswald, Arial, sans-serif; font-size:44px; font-weight:600; color:#1c1a17">name y description</h3>
+      <p style="font-family:'Public Sans', Arial, sans-serif; font-size:28px; line-height:1.4; color:#3e3a34">Unos 100 tokens por skill, desde que abres Claude Code</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:36px; background:#ffffff; border:1px solid #e5ddd1; border-radius:16px">
+      <p style="font-family:'Public Sans', Arial, sans-serif; font-size:26px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#b4441a">2 · Al activarse</p>
+      <h3 style="font-family:Oswald, Arial, sans-serif; font-size:44px; font-weight:600; color:#1c1a17">El cuerpo de SKILL.md</h3>
+      <p style="font-family:'Public Sans', Arial, sans-serif; font-size:28px; line-height:1.4; color:#3e3a34">Menos de 5 mil tokens, solo cuando la tarea lo pide</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:36px; background:#1c1a17; border-radius:16px">
+      <p style="font-family:'Public Sans', Arial, sans-serif; font-size:26px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#f08a4b">3 · Si hace falta</p>
+      <h3 style="font-family:Oswald, Arial, sans-serif; font-size:44px; font-weight:600; color:#f7f3ec">Referencias y scripts</h3>
+      <p style="font-family:'Public Sans', Arial, sans-serif; font-size:28px; line-height:1.4; color:#d9cfc1">Nada hasta que se usan. Del script solo entra lo que imprime</p>
+    </div>
+  </div>
+  <p id="p7ed10021cf2dr2-21bdf205" style="position:absolute; top:622.08px; left:calc(50% - 8px); width:1664px; font-family:'Public Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#1c1a17; transform:translateX(-50%)">Por eso pueden tener decenas de skills instaladas sin llenar el contexto.</p>
+  <aside>Este es el concepto técnico más importante. Claude no lee todas las skills al inicio: solo ve el nombre y la descripción de cada una, unos cien tokens. Cuando un pedido coincide con una descripción, carga el cuerpo de esa skill. Y los archivos de apoyo los abre solo si los necesita. Con los scripts es aún mejor: los ejecuta, y al contexto entra solo la salida, no las cien líneas de pandas. Eso hace que una skill sea más barata y más confiable que pegar un prompt larguísimo.</aside>
+</section>
